@@ -1,11 +1,9 @@
 import React from 'react';
-import Nav from './Navbar';
-import Footer from './Footer';
 
 function Contact() {
     return (
         <>
-            {/* < Nav /> */}
+            
             <section className="contact">
                 <div className="contact-wrapper">
                     <div className="contact-bg">
@@ -75,7 +73,7 @@ function Contact() {
                     </div>
                 </div>
             </section>
-            {/* < Footer /> */}
+            
         </>
     )
 }

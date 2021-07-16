@@ -73,6 +73,14 @@ nav ul li a:hover {
 }
 
 /* Header */
+header {
+  background: linear-gradient(rgba(20, 20, 22, 0.8),
+  rgba(20, 20, 21, 0.5)),
+  url("./Assets/Img/1.png"); 
+  padding-bottom: 140px;
+  padding-top: 40px;
+}
+
 header h1 {
   font-size: 75px;
   max-width: 700px;
@@ -132,6 +140,9 @@ header p {
   flex-direction: column;
   padding: 40px;
   flex: 1;
+  background: linear-gradient(rgba(20, 20, 22, 0.8),
+  rgba(20, 20, 21, 0.5)),
+  url("./Assets/Img/12.png"); 
 }
 
 .about-grid {
@@ -256,7 +267,7 @@ header p {
 }
 
 .vision-bg {
-  background: url('./Assets/Img/vision-bg.png') no-repeat
+  background: url('./Assets/Img/12.png') no-repeat
     center center/cover;
   flex: 2;
   height: 110vh;
@@ -300,8 +311,8 @@ header p {
 }
 
 .vision-text {
-  font-size: 20px;
-  color: #36b6ff;
+  font-size: 40px;
+  color: #969494;
 }
 
 .vision-cta:hover {
@@ -396,10 +407,6 @@ footer .footer-socials p {
 }
 
 /* Contact CSS STYLING  */
-/* .contact {
-  
-} */
-
 .contact-wrapper {
   width: 100%;
 }
@@ -407,7 +414,7 @@ footer .footer-socials p {
 .contact-bg {
   background: linear-gradient(rgba(20, 20, 22, 0.8),
   rgba(20, 20, 21, 0.3)),
-  url("./Assets/Img/vision-bg.png"); 
+  url("./Assets/Img/16.png"); 
 }
 
 .contact .contact-wrapper div {

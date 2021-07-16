@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from '../Assets/Img/Logo.png';
-// import { Link } from 'react-router-dom';
-import {Link} from 'react-scroll';
+import { Link } from 'react-router-dom';
+import {Link as Lik} from 'react-scroll';
 
 function Navbar() {
     return (

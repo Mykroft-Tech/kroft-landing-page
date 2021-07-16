@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 function Vision() {
     return (
@@ -15,9 +16,9 @@ function Vision() {
                                 To become the most reliable and trusted agency 
                                 for all tech and digital solutions.
                             </p>
-                            <a className="vision-cta" href="#">
+                            <Link className="vision-cta" to="/contact">
                                 Get Started
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>
