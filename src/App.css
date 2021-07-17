@@ -492,3 +492,182 @@ footer .footer-socials p {
 .contact-submit {
   background-color: #fd6262;
 }
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+/* Navbar Mobile Styling */
+  nav {
+    display: block;
+  }
+
+  nav ul {
+    display: block;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    padding-right: 2.9rem;
+    color: #ffffff;
+  }
+
+  .nav-button {
+    margin-top: 20px;
+  }
+
+  header h1 {
+    font-size: 40px;
+    margin: 0;
+    text-align: center;
+  }
+
+  header {
+    padding-bottom: 0px;
+  }
+
+  header p {
+    font-size: 16px;
+    margin: 10px 0 30px 0;
+    text-align: center;
+  }
+
+  .home-cta {
+    margin-left: 0rem;
+    margin: 2rem;
+    text-align: center;
+    display: block;
+}
+
+  /* About Styling */
+  .about-container {
+    display: block;
+  }
+
+  .about-grid {
+    padding: 70px;
+    display: block;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 2rem;
+    flex: 2 1;
+  }
+
+  .grid-1 {
+    position: static;
+    top: -119px;
+  }
+
+  .grid-1 {
+    position: static;
+  }
+
+  .grid-3 {
+    margin-bottom: 0px;
+  }
+
+  .grid-4 {
+    margin-top: 4rem;
+  }
+
+  .grid {
+    padding: 0;
+  }
+
+  .grid div {
+    padding: 1.5rem;
+  }
+
+  /* Service Styling */
+  .services .service {
+    display: block;
+    margin-top: 6rem;
+    text-align: center;
+}
+
+  .service-icon {
+    display: block;
+    padding: 2rem;
+  }
+
+  .service-info {
+    padding: 2px;
+    flex: 2 1;
+  }
+
+  .services .services-wrapper {
+    display: block;
+    margin: 2rem;
+    text-align: center;
+  }
+
+  .service-icon, .service-info {
+    border: none;
+  }
+
+  /* Vision Styling */
+  .vision .vision-wrapper {
+    display: block;
+    position: relative;
+  }
+
+  .vision-text {
+    position: absolute;
+    top: 60px;
+    font-size: 30px;
+}
+
+  .vision-info {
+    position: absolute;
+    bottom: 10px;
+  }
+
+  .vision p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  /* Footer Styling */
+  footer {
+    display: block;
+  }
+
+  .foot {
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  footer .footer-contact {
+    padding: 20px;
+  }
+
+  footer .footer-contact::before {
+    content: '_____';
+  }
+
+  .footer-contact form label {
+    font-size: 16px;
+  }
+
+  .footer-icon {
+    margin-bottom: 1rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

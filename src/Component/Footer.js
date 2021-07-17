@@ -5,7 +5,7 @@ function Footer() {
     return (
         <>
             <footer>
-                <div className="footer-details">
+                <div className="foot footer-details">
                     <div>
                         <img src={logo} alt="logo" />
                     </div>
@@ -19,7 +19,7 @@ function Footer() {
                     </div>
                 </div>
 
-                <div className="footer-contact">
+                <div className="foot footer-contact">
                     <p>
                         Subscribe to our newsletter
                     </p>
@@ -32,7 +32,7 @@ function Footer() {
                     </form>
                 </div>
 
-                <div className="footer-socials">
+                <div className="foot footer-socials">
                     <div>
                         <p>Follow Us On:</p>
                         <div className="footer-icon">
