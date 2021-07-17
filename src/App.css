@@ -529,6 +529,7 @@ footer .footer-socials p {
     font-size: 16px;
     margin: 10px 0 30px 0;
     text-align: center;
+    padding: 0 1rem;
   }
 
   .home-cta {
@@ -549,6 +550,11 @@ footer .footer-socials p {
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 2rem;
     flex: 2 1;
+  }
+
+  .about p {
+    font-size: 16px;
+    text-align: center;
   }
 
   .grid-1 {
@@ -581,7 +587,7 @@ footer .footer-socials p {
     display: block;
     margin-top: 6rem;
     text-align: center;
-}
+  }
 
   .service-icon {
     display: block;
@@ -613,7 +619,7 @@ footer .footer-socials p {
     position: absolute;
     top: 60px;
     font-size: 30px;
-}
+  }
 
   .vision-info {
     position: absolute;
@@ -625,6 +631,7 @@ footer .footer-socials p {
     text-align: center;
   }
 
+  
   /* Footer Styling */
   footer {
     display: block;
@@ -650,6 +657,35 @@ footer .footer-socials p {
   .footer-icon {
     margin-bottom: 1rem;
   }
+
+  /* Contact */
+  .contact-flexed {
+    display: block;
+    padding-top: 3rem;
+  }
+
+  .contact-grid {
+    display: block;
+  }
+
+  .contact .contact-wrapper div {
+    padding: 1rem;
+  }
+
+  .contact .contact-wrapper .contact-bg {
+    padding: 6rem 3rem;
+    height: auto;
+  }
+
+  .contact .contact-wrapper div h1 {
+    font-size: 50px;
+    color: #8a8a8a;
+    padding: 2rem 0;
+  }
+
+  .contact .contact-wrapper div p {
+    font-size: 20px;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -658,16 +694,53 @@ footer .footer-socials p {
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1200px) {
+  /* Vision CSS Styling */
+  .vision-info {
+    flex: 2;
+  }
 
+  .vision-bg {
+    flex: 1;
+  }
+
+  /* .footer-contact form .mail {
+    display: block;
+    margin: 2rem auto;
+  } */
+  
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (max-width: 768px) {
+  footer {
+    display: block;
+  }
 
+  .foot {
+    margin-top: 4rem;
+    text-align: center;
+  }
+
+  footer .footer-contact::before {
+    content: '_____';
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+@media only screen and (max-width: 768px) {
+    .footer-contact form .mail {
+    display: block;
+    margin: 2rem auto;
+    max-width: 50%;
+  }
+
+  .footer-contact form .submit {
+    display: block;
+    margin: 0 auto;
+  }
+  /* footer {
+    display: block;
+  } */
 
 }
