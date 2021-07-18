@@ -494,6 +494,132 @@ footer .footer-socials p {
 }
 
 
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  width: 60vw;
+  justify-content: end;
+  margin-right: 2rem;
+}
+
+.nav-item {
+  height: 80px;
+}
+
+
+
+
+.menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .NavbarItems {
+    position: relative;
+  }
+
+  nav {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    height: 80px;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .nav-menu li a {
+    padding: 0;
+  }
+
+  .nav-menu li {
+    margin-top: 4rem;
+  }
+
+  .nav-menu.active {
+    background: #141416;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 100%);
+    font-size: 1.8rem;
+    cursor: pointer;
+    margin: auto;
+  }
+
+  .fa-times {
+    color: #fff;
+    font-size: 2rem;
+  }
+
+  .about-container {
+    display: block;
+  }
+
+  .about-grid {
+    padding: 70px;
+    display: block;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 2rem;
+    flex: 2 1;
+  }
+
+  .about p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .grid-1 {
+    position: static;
+    top: -119px;
+  }
+
+  .grid-1 {
+    position: static;
+  }
+
+  .grid-3 {
+    margin-bottom: 0px;
+  }
+
+  .grid-4 {
+    margin-top: 4rem;
+  }
+
+  .grid {
+    padding: 0;
+    margin: 4rem auto;
+  }
+
+  .grid div {
+    padding: 1.5rem;
+  }
+
+
+}
+
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 /* Navbar Mobile Styling */

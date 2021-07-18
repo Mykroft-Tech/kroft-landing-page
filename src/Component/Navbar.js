@@ -1,32 +1,50 @@
-import React from 'react';
+import React, {useState} from 'react';
 import logo from '../Assets/Img/Logo.png';
-import { Link } from 'react-router-dom';
-import {Link as Lik} from 'react-scroll';
+import { Link as Lk } from 'react-router-dom';
+// import {Link} from 'react-scroll';
 
 function Navbar() {
+    const [click, setClick] = useState(false);
+
+    const handleClick = () => {
+        setClick(!click);
+    }
+
+    const closeMobileMenu = () => {
+        setClick(false);
+    }
     return (
         <>
             <nav className="navbar">
                 <div>
-                    <Link to="/">
+                    <Lk to="/">
                         <img src={logo} alt="" />
-                    </Link>
+                    </Lk>
                 </div>
-                <ul>
+                {/* <i class="fas fa-bars"></i> */}
+                {/* <i class="fas fa-times"></i> */}
+                <div className="menu-icon" onClick={handleClick}>
+                    <i className={click ? 'fas fa-2x fa-times': 'fas fa-bars'} />
+                </div>
+                <ul className={click ? 'nav-menu active' : 'nav-menu'} >
                     <li>
-                        <Link className="current" to="/">
+                        <Lk className="current" to="/" onClick={closeMobileMenu}>
                             Home
-                        </Link>
+                        </Lk>
                     </li>
                     <li>
-                        <Link to="about" smooth={true} duration={1000}>About Us</Link>
+                        <Lk to="about" onClick={closeMobileMenu}>
+                            About Us
+                        </Lk>
                     </li>
                     <li>
-                        <Link to="services" smooth={true} duration={1000}>Services</Link>
+                        <Lk to="services" onClick={closeMobileMenu}>
+                            Services
+                        </Lk>
                     </li>
-                    <Link className="nav-button" to="/contact">
+                    <Lk className="nav-button" onClick={closeMobileMenu} to="/contact">
                         Contact Us
-                    </Link>
+                    </Lk>
                 </ul>
             </nav>
         </>
