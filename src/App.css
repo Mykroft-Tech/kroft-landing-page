@@ -45,6 +45,7 @@ nav ul li a {
   text-decoration: none;
   padding-right: 3rem;
   color: #ffffff;
+  cursor: pointer;
 }
 
 nav ul li a.current {

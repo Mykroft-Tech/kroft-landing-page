@@ -16,7 +16,7 @@ function Home() {
                     Website Development Firm with loads of experience,
                     you’ve come to the right place.
                 </p>
-                <a className="home-cta" href="#">
+                <a className="home-cta" href="/contact">
                     Contact Us
                 </a>
             </header>
