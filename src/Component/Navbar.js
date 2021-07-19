@@ -17,7 +17,7 @@ function Navbar() {
 
     return (
         <>
-            <nav id="home" className="navbar">
+            <nav className="navbar">
                 <div>
                     <Lk to="/">
                         <img src={logo} alt="" />

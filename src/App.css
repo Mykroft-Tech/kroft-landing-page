@@ -23,6 +23,10 @@ nav {
   justify-content: space-between;
   padding: 0 5rem;
   background-color: #141416;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  height: 80px;
 }
 
 nav div img {

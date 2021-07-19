@@ -6,7 +6,7 @@ import Vision from './Vision';
 function Home() {
     return (
         <>
-            <header>
+            <header id="home">
                 <h1>
                     We turn ideas 
                     <br/> into successful products.
