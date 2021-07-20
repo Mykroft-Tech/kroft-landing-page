@@ -1,11 +1,10 @@
 import React from 'react';
-import { Parallax } from 'react-scroll-parallax';
 
 function About() {
     return (
         <>
-            <Parallax className="custom-class" y={[-20,20]} tagOuter="figure">
-                <section id="about" className="about">
+
+            <section id="about" className="about">
                 <div className="about-container">
                     <div className="about-main">
                         <h2>About Us</h2>
@@ -39,8 +38,8 @@ function About() {
                                 </div>
                                 <h2>Analyse</h2>
                                 <p>
-                                Our team of experts analyse your projects 
-                                using various techniques and tools .
+                                    Our team of experts analyse your projects 
+                                    using various techniques and tools .
                                 </p>
                             </div>
                         </div>
@@ -73,7 +72,7 @@ function About() {
                     </div>
                 </div>
             </section>
-            </Parallax>
+            
 
         </>
     )

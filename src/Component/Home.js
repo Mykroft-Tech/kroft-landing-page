@@ -1,17 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import About from './About';
 import Services from './Services';
 import Vision from './Vision';
 
 function Home() {
-    const [offsetY, setOffsetY] = useState(0);
-    const handleScroll = () => setOffsetY(window.pageYOffset);
-
-    useEffect(() => {
-        window.addEventListener("scroll", handleScroll);
-
-        return () => window.removeEventListener("scroll", handleScroll);
-    }, [])
 
     return (
         <>
@@ -33,7 +25,7 @@ function Home() {
                 </a>
             </header>
 
-            < About  style={ {transform: `translateY(${offsetY * 0.3}px)`} } />
+            < About />
             < Services />
             < Vision />
         </>
