@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import logo from '../Assets/Img/Logo.png';
 import { Link as Lk } from 'react-router-dom';
-// import { Link } from 'react-scroll';
 import { HashLink as Link } from 'react-router-hash-link';
 
 function Navbar() {
@@ -19,9 +18,9 @@ function Navbar() {
         <>
             <nav className="navbar">
                 <div>
-                    <Lk to="/">
+                    <Link smooth to="#home">
                         <img src={logo} alt="" />
-                    </Lk>
+                    </Link>
                 </div>
                 
                 <div className="menu-icon" onClick={handleClick}>
@@ -55,9 +54,9 @@ function Navbar() {
                             Services
                         </Link>    
                     </li>
-                    <Lk className="nav-button" onClick={closeMobileMenu} to="/contact">
+                    <Link className="nav-button" onClick={closeMobileMenu} smooth to="/#contact">
                         Contact Us
-                    </Lk>
+                    </Link>
                 </ul>
             </nav>
         </>

@@ -2,6 +2,7 @@ import React from 'react';
 import About from './About';
 import Services from './Services';
 import Vision from './Vision';
+import Contact from './Contact';
 
 function Home() {
 
@@ -28,6 +29,7 @@ function Home() {
             < About />
             < Services />
             < Vision />
+            < Contact />
         </>
     )
 }

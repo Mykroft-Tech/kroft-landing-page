@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 function Vision() {
     return (
@@ -16,7 +16,7 @@ function Vision() {
                                 To become the most reliable and trusted agency 
                                 for all tech and digital solutions.
                             </p>
-                            <Link className="vision-cta" to="/contact">
+                            <Link className="vision-cta" smooth to="#contact">
                                 Get Started
                             </Link>
                         </div>
