@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../Assets/Img/Logo.png';
+import logo from '../Assets/Img/mykroftlogo.png';
 
 function Footer() {
     return (

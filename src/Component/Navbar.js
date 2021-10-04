@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import logo from '../Assets/Img/Logo.png';
+import logo from '../Assets/Img/mykroftlogo.png';
 import { Link as Lk } from 'react-router-dom';
 import { HashLink as Link } from 'react-router-hash-link';
 

@@ -7,7 +7,7 @@ function Contact() {
             <section id="contact" className="contact">
                 <div className="contact-wrapper">
                     <div className="contact-bg">
-                        <h1>Get Started</h1>
+                        <h1>Get Started With Us</h1>
                         <p>
                             Let’s give your business what it needs to grow.
                         </p>
