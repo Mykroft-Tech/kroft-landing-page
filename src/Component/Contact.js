@@ -21,31 +21,35 @@ function Contact() {
                         </div>
 
                         <div className="contact-flex-two">
-                            <form action="">
+                            <form 
+                                action="mailto:mykrofttech@gmail.com"
+                                method="get"
+                                encType="text/plain"
+                            >
                                 <div className="contact-grid">
                                     <div>
                                         <label htmlFor="Fname">
                                             First Name
                                         </label>
-                                        <input type="text"/>
+                                        <input type="text" name="name" />
                                     </div>
 
                                     <div>
                                         <label htmlFor="Lname">
                                             Last Name
                                         </label>
-                                        <input type="text"/>
+                                        <input type="text" name="name"/>
                                     </div>
 
                                     <div>
-                                        <label htmlFor="Fname">
+                                        <label htmlFor="Fname" name="email">
                                             Email *
                                         </label>
                                         <input type="email"/>
                                     </div>
 
                                     <div>
-                                        <label htmlFor="Fname">
+                                        <label htmlFor="Fname" name="Company">
                                             Company
                                         </label>
                                         <input type="text"/>
@@ -55,7 +59,7 @@ function Contact() {
                                         <label htmlFor="Fname">
                                             Phone
                                         </label>
-                                        <input type="tel"/>
+                                        <input type="tel" name="tel"/>
                                     </div>
 
                                     <div>
