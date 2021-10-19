@@ -7,7 +7,7 @@ function About() {
             <section id="about" className="about">
                 <div className="about-container">
                     <div className="about-main">
-                        <h2>About Us</h2>
+                        <h2>About Us.</h2>
                         <p>
                             At Mykroft Tech, we believe in the power of ideas. 
                             We are based in Enugu, but we work with clients 
